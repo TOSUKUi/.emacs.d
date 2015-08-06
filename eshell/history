@@ -1,0 +1,26 @@
+ls
+open ../lp_08.pdf
+open -a /Applications/Firefox.app/
+ls
+ks
+ls
+ls
+cd ..
+ls
+cd ..
+ls
+open graph_1511.pdf 
+ls
+cd src/
+ls
+ls
+cd eshell/
+cd .
+cd ..
+cd elpa/
+ls
+ls
+sl site-lisp/
+ls
+cd site-lisp/
+ls
