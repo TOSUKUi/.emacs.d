@@ -24,3 +24,14 @@ sl site-lisp/
 ls
 cd site-lisp/
 ls
+ls
+cd site-lisp/
+ls
+# Load etc/install.el to install
+ls
+ls
+ls
+emacs ../init.el 
+term
+ls
+term ../init.el 

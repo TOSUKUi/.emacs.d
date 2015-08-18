@@ -1,4 +1,4 @@
-](require 'package)
+(require 'package)
 (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/"))
 (package-initialize)
@@ -86,7 +86,7 @@
 	  '(lambda ()
 	     (reftex-mode 1)
 	     (define-key reftex-mode-map (concat YaTeX-prefix ">") 'YaTeX-comment-region)
-	                  (define-key reftex-mode-map (concat YaTeX-prefix "<") 'YaTeX-unxucomment-region)))
+	     (define-key reftex-mode-map (concat YaTeX-prefix "<") 'YaTeX-unxucomment-region)))
 
 
 
@@ -97,10 +97,15 @@
 
 
 
-;
-;twittering mode					
-;
+					;
+					;twittering mode
+					;
 (add-to-list 'load-path "~/.emacs.d/site-lisp/twittering-mode")
 (require 'twittering-mode)
 (setq twittering-icon-mode t)
 (setq twittering-use-master-password t)
+
+
+
+
+
